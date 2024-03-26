@@ -1,4 +1,5 @@
 import React from "react";
+import "../estilos/PiePagina.css";
 
 function PiePagina(){
     return (

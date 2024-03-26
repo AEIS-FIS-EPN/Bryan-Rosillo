@@ -1,0 +1,71 @@
+#acercaDe{
+    width: 100%;
+    height: 520px;
+    background-color: aquamarine;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+#acercaDe img{
+    animation: cambiarColorBorde 5s linear infinite;
+    margin: 10px;
+}
+
+@keyframes cambiarColorBorde{
+    0%{border: 10px solid #080229;}
+    25%{border: 10px solid #020629;}
+    50%{border: 10px solid #043072;}
+    75%{border: 10px solid #020629;}
+    100%{border: 10px solid #080229;}
+}
+
+
+#mensajeAcercaDe{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 600px;
+}
+
+#fotosAcercaDe{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+
+#imagenPersonal {
+    width: 350px;
+    height: 350px;
+    transition: transform 0.5s linear; 
+    position: relative;
+    top: 50px;
+}
+
+#imagenPersonal:hover {
+    transform: scale(1.05); 
+    object-fit: cover;
+}
+
+#imagen01{
+    width: 400px;
+    height: 150px;
+    transition: transform 0.5s linear; 
+    position: relative;
+}
+
+#imagen01:hover{
+    transform: scale(1.05); 
+}
+
+#imagenTK{
+    width: 250px;
+    height: 250px;
+    left: 70px;
+    position: relative;
+    transition: transform 0.5s linear; 
+}
+
+#imagenTK:hover{
+    transform: scale(1.05); 
+}

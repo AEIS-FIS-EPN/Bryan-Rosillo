@@ -1,5 +1,7 @@
 import React from "react";
 import GrupoImagenes from "./GrupoImagenes";
+import "../estilos/Experiencia.css"
+
 
 function Experiencia(){
     return(

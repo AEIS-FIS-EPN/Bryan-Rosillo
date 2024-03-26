@@ -1,4 +1,5 @@
 import React from "react";
+import "../estilos/AcercaDe.css"
 
 function AcercaDe(){
     return(
