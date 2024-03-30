@@ -1,18 +1,18 @@
 import React from "react";
-import ContenedorSimple from "./ContenedorSimple";
-import "../estilos/Estudios.css"
+import SimpleDiv from "../../atoms//SimpleDiv/SimpleDiv";
+import "./Studies.css"
 
-function Estudios(){
+function Studies(){
     return(
         <div id="estudios">
             <h1>Estudios</h1>
             <div id="grupoItems01">
-                <ContenedorSimple 
+                <SimpleDiv 
                     imagen="bachiller"
                     descripcionImagen="icono de un bachiller"
                     texto="He terminado mis estudios secuandarios con un título de bachiller en ciencias generales."
                 />
-                <ContenedorSimple 
+                <SimpleDiv
                     imagen="epnLogo"
                     descripcionImagen="icono de la Escuela Politécnica Nacional"
                     texto="Por el momento, estoy estudiando ingeniería en software en la Escuela Politénica Nacional."
@@ -23,4 +23,4 @@ function Estudios(){
     );
 }
 
-export default Estudios;
+export default Studies;

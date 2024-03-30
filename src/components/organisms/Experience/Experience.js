@@ -1,14 +1,14 @@
 import React from "react";
-import GrupoImagenes from "./GrupoImagenes";
-import "../estilos/Experiencia.css"
+import GroupImages from "../../atoms/GroupImages/GroupImages";
+import "./Experience.css"
 
 
-function Experiencia(){
+function Experience(){
     return(
         <div id="experiencia">
             <h1>Experiencia</h1>
             <div id="grupoItems02">
-                <GrupoImagenes
+                <GroupImages
                     imagen01 = "cMas" descImagen01="logo del lenguaje C++"
                     imagen02 = "java" descImagen02="logo del lenguaje Java"
                     imagen03 = "php" descImagen03="logo del lenguaje php"
@@ -17,9 +17,9 @@ function Experiencia(){
                 <div id="textoExperiencia">
                     <p>He tenido la oportunidad de aprender multiples tecnologías durante mi camino en mundo del software.</p>
                     <p>Puedes ver algunos de mis trabajos y participaciones en mi <a href="https://github.com/BryanRosillo" target="_blank">Git Hub</a> </p>
-                    <img src={require("../recursos/gitHub.png")} alt="logo gitHub"/>
+                    <img src={require("../../../utils/gitHub.png")} alt="logo gitHub"/>
                 </div>
-                <GrupoImagenes
+                <GroupImages
                     imagen01 = "html" descImagen01="logo de html"
                     imagen02 = "css" descImagen02="logo de css"
                     imagen03 = "javaScript" descImagen03="logo del lenguaje javaScript"
@@ -32,5 +32,5 @@ function Experiencia(){
     );
 }
 
-export default Experiencia;
+export default Experience;
 

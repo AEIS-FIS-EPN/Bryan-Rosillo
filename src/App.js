@@ -1,23 +1,23 @@
 import './App.css';
-import BarraNavegacion from './componentes/BarraNavegacion.js';
-import Bienvenida from './componentes/Bienvenida.js';
-import AcercaDe from './componentes/AcercaDe.js';
-import Estudios from './componentes/Estudios.js';
-import Experiencia from './componentes/Experiencia.js';
-import Contacto from './componentes/Contacto.js';
-import PiePagina from './componentes/PiePagina.js';
+import NavigationBar from './components/molecules/NavigationBar/NavigationBar.js';
+import Welcome from './components/organisms/Welcome/Welcome.js';
+import About from './components/organisms/About/About.js';
+import Studies from './components/organisms/Studies/Studies.js';
+import Experience from './components/organisms/Experience/Experience.js';
+import Contact from './components/organisms/Contact/Contact.js';
+import Footer from './components/molecules/Footer/Footer.js';
 
 
 function App() {
   return (
     <div className="App">
-      <BarraNavegacion />
-      <Bienvenida />
-      <AcercaDe/>
-      <Estudios/>
-      <Experiencia/>
-      <Contacto/>
-      <PiePagina/>
+      <NavigationBar />
+      <Welcome />
+      <About />
+      <Studies />
+      <Experience/>
+      <Contact/>
+      <Footer/>
     </div>
 
   );

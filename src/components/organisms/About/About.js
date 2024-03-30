@@ -1,7 +1,7 @@
 import React from "react";
-import "../estilos/AcercaDe.css"
+import "./About.css";
 
-function AcercaDe(){
+function About(){
     return(
         <div id="acercaDe">
             <div id="mensajeAcercaDe">
@@ -20,11 +20,11 @@ function AcercaDe(){
                 </p>
             </div>
             
-            <img src={require("../recursos/fotoPersonal.jpg")} alt="imagen personal" id="imagenPersonal"/>
+            <img src={require("../../../utils/fotoPersonal.jpg")} alt="imagen personal" id="imagenPersonal"/>
 
             <div id="fotosAcercaDe">
-                <img src={require("../recursos/foto01.jpg")} alt="foto de un lindo paisaje" id="imagen01"/>
-                <img src={require("../recursos/fotoTK.png")} alt="foto del mejor albúm del mundo" id="imagenTK"/>
+                <img src={require("../../../utils/foto01.jpg")} alt="foto de un lindo paisaje" id="imagen01"/>
+                <img src={require("../../../utils/fotoTK.png")} alt="foto del mejor albúm del mundo" id="imagenTK"/>
             </div>
 
         </div>
@@ -32,4 +32,4 @@ function AcercaDe(){
     );
 }
 
-export default AcercaDe;
+export default About;

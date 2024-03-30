@@ -1,10 +1,10 @@
 import React from "react";
-import '../estilos/BarraNavegacion.css';
+import './NavigationBar.css';
 
-function BarraNavegacion() {
+function NavigationBar() {
     return(
         <div id="parteSuperior">
-            <img src={require("../recursos/iconoSuperior.png")} alt="iconoPersona" id="iconoSuperior" />
+            <img src={require("../../../utils/iconoSuperior.png")} alt="iconoPersona" id="iconoSuperior" />
             <ul>
                 <li><a href="#acercaDe">Acerca de mí</a></li>
                 <li><a href="#estudios">Estudios</a></li>
@@ -15,4 +15,4 @@ function BarraNavegacion() {
     );
 }
 
-export default BarraNavegacion;
+export default NavigationBar;

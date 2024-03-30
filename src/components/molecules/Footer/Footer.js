@@ -1,7 +1,7 @@
 import React from "react";
-import "../estilos/PiePagina.css";
+import "./Footer.css";
 
-function PiePagina(){
+function Footer(){
     return (
         <footer>
             <h5>¡Muchas gracias por visitarme!</h5>
@@ -9,4 +9,4 @@ function PiePagina(){
     );
 }
 
-export default PiePagina;
+export default Footer;
